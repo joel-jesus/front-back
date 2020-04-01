@@ -1,0 +1,10 @@
+<mat-card class="example-card">
+  <div *ngFor="let a of album">
+    <img mat-card-image src="{{ a.photo }}" alt="Photo of a Shiba Inu" />
+    <mat-card-content>
+      <!-- CHECK IF THE STRUCTURE WILL STAY THIS WAY -->
+      <a>{{ a.music }}</a>
+      <a>{{ a.artist }}</a>
+    </mat-card-content>
+  </div>
+</mat-card>
